@@ -4,14 +4,16 @@
     --light-blue: #B4C5CC;
     --blue-head: #327F9B;
     --blue-title: #7CCBED;
-    --dark-blue:  #000849;
+    --dark-blue: #000849;
     --pv: #5bff4b;
     --atk: #ec0000;
     --def: #cb6f00;
     --spd: #3f8eff;
 
 }
-
+a{
+    text-decoration: none;
+}
 h1,
 h2,
 p,
@@ -22,6 +24,7 @@ button {
 
 body {
     background-color: var(--light-blue);
+    overflow-x: hidden;
 }
 
 header {
@@ -30,7 +33,8 @@ header {
     background-color: var(--blue-head);
     padding: 20px;
 }
-.sous-header{
+
+.sous-header {
     display: flex;
     justify-content: space-around;
     font-size: 1.5rem;
@@ -39,20 +43,25 @@ header {
     padding: 20px;
     background-color: #fff;
 }
-.sous-header select, .sous-header option{
+
+.sous-header select,
+.sous-header option {
     background-color: transparent;
     border: none;
     color: var(--blue-head);
     font-size: 1.5rem;
 }
-.sous-header a{
+
+.sous-header a {
     text-decoration: none;
 }
-.sous-header a:hover{
-   font-size: 2rem;
-   transition: 1s ease-in-out;
-   
+
+.sous-header a:hover {
+    font-size: 2rem;
+    transition: 1s ease-in-out;
+
 }
+
 h1 {
     font-size: 5rem;
     text-align: center;
@@ -85,16 +94,20 @@ article {
     position: relative;
     overflow: hidden;
 }
-.dragon{
+
+.dragon {
     background-color: #fff;
 }
-.dragon a{
+
+.dragon a {
     text-decoration: none;
 }
-.dragon:hover{
+
+.dragon:hover {
     transform: scale(1.1);
     transition: 1s ease-in-out;
 }
+
 article div {
     display: flex;
     justify-content: center;
@@ -171,13 +184,84 @@ article div img {
     background-color: var(--spd);
     width: 40% !important;
 }
-@media only screen and (max-width: 1200px){
+
+@media only screen and (max-width: 1200px) {
     article {
         width: 40%;
     }
 }
-@media only screen and (max-width: 700px){
+
+@media only screen and (max-width: 700px) {
     article {
         width: 100%;
     }
+}
+
+/* ------------------------DESC-------------------- */
+/* ------------------------DESC-------------------- */
+/* ------------------------DESC-------------------- */
+.arrow{
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px;
+}
+.arrow img:hover{
+    transform: rotate(1turn);
+    transition: 1s ease-in-out;
+}
+.desc-img {
+    width: 80%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.desc {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name img {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.name {
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.stats-desc {
+    width: 80% !important;
+}
+
+aside ul li img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+aside ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+aside ul li p{
+    color: var(--dark-blue);
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+.relation{
+    position: relative;
+    z-index: 1;
+}
+.fond img{
+    width: 100%;
+    height: 100%;
+    position: static;
+    margin-top: -400px;
 }
