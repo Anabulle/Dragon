@@ -4,6 +4,12 @@
     --light-blue: #B4C5CC;
     --blue-head: #327F9B;
     --blue-title: #7CCBED;
+    --dark-blue:  #000849;
+    --pv: #5bff4b;
+    --atk: #ec0000;
+    --def: #cb6f00;
+    --spd: #3f8eff;
+
 }
 
 h1,
@@ -50,31 +56,30 @@ article {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
     border-radius: 15px;
     padding: 20px;
     margin: 20px;
-    width: 35%;
+    width: 20%;
     position: relative;
     overflow: hidden;
 }
-
+.dragon{
+    background-color: #fff;
+}
 article div {
     display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 1;
-}
-
-figure {
-    height: 250px;
 }
 
 figure img {
     width: 100%;
     position: absolute;
-    bottom: -50px;
+    bottom: 0px;
     left: 0;
-    opacity: 90%;
-    max-height: 300px;
+    opacity: 50%;
+    max-height: 100%;
 }
 
 article div img {
@@ -84,7 +89,55 @@ article div img {
 .pp {
     width: 100%;
     border-radius: 10px;
-    max-height: 300px;
+    max-height: 200px;
     object-fit: cover;
     z-index: 2;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    color: var(--dark-blue);
+    font-size: 1.3rem;
+    font-weight: 800;
+    width: 100%;
+    z-index: 1;
+    padding: 50px 10px 50px 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.stats aside {
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.stats aside p {
+    min-width: 80px;
+}
+
+.progress {
+    height: 24px;
+    margin-left: 20px;
+}
+
+.pv {
+    background-color: var(--pv);
+    width: 25% !important;
+}
+
+.atk {
+    background-color: var(--atk);
+    width: 50% !important;
+}
+
+.def {
+    background-color: var(--def);
+    width: 80% !important;
+}
+
+.spd {
+    background-color: var(--spd);
+    width: 40% !important;
 }
