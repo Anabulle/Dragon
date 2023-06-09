@@ -265,3 +265,41 @@ aside ul li p{
     position: static;
     margin-top: -400px;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+form div input {
+    margin: 15px 15px;
+    padding: 10px;
+}
+
+form div label {
+    font-size: 1.2rem;
+}
+
+#valider {
+    padding: 10px;
+    background-color: var(--blue-head);
+    color: #ffff;
+    font-size: 1.1rem;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#valider:hover {
+    background-color: #fff;
+    color: var(--blue-head);
+    border: 1px solid var(--blue-head);
+    transition: 1s;
+}

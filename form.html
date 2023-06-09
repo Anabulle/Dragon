@@ -12,18 +12,35 @@
 </head>
 
 <body>
-    <h1>Rjoignez nous!</h1>
+       <header>
+        <h1>Dragons</h1>
+    </header>
+    <div class="sous-header">
+        <select name="trier" id="trier">
+            <option value="nom">trier par nom</option>
+            <option value="type">trier par type</option>
+        </select>
+        <a href="form.html">Add a dragon</a>
+    </div>
     <form action="" method="post">
 
         <div>
-            <label for="name_users">votre nom prénom</label>
-            <input type="text" size="30" id="name_users" name="name_users">
+            <label for="name_users">nom dragon</label>
+            <input type="text" size="30" id="name" name="name">
         </div>
         <div>
-            <label for="mail_users">votre mail</label>
-            <input type="text" size="30" id="mail_users" name="mail_users">
+            <label for="type">type</label>
+            <select name="type" id="type">
+                <option value="feu">feu</option>
+                <option value="vent">vent</option>
+                <option value="eau">eau</option>
+                <option value="electrique">electrique</option>
+                <option value="roche">roche</option>
+                <option value="plante">plante</option>
+                <option value="neutre">neutre</option>
+            </select>
         </div>
-        <input type="file" name="cv" id="cv">
+        <input type="file" name="img" id="img">
         <input type="submit" value="envoyez" id="valider" name="valider">
     </form>
 </body>
