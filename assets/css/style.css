@@ -30,7 +30,29 @@ header {
     background-color: var(--blue-head);
     padding: 20px;
 }
-
+.sous-header{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    color: var(--blue-head);
+    border-bottom: 1px solid var(--blue-head);
+    padding: 20px;
+    background-color: #fff;
+}
+.sous-header select, .sous-header option{
+    background-color: transparent;
+    border: none;
+    color: var(--blue-head);
+    font-size: 1.5rem;
+}
+.sous-header a{
+    text-decoration: none;
+}
+.sous-header a:hover{
+   font-size: 2rem;
+   transition: 1s ease-in-out;
+   
+}
 h1 {
     font-size: 5rem;
     text-align: center;
@@ -66,10 +88,18 @@ article {
 .dragon{
     background-color: #fff;
 }
+.dragon a{
+    text-decoration: none;
+}
+.dragon:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
 article div {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     z-index: 1;
 }
 
@@ -91,7 +121,7 @@ article div img {
     border-radius: 10px;
     max-height: 200px;
     object-fit: cover;
-    z-index: 2;
+    z-index: 10;
 }
 
 .stats {
@@ -140,4 +170,14 @@ article div img {
 .spd {
     background-color: var(--spd);
     width: 40% !important;
+}
+@media only screen and (max-width: 1200px){
+    article {
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 700px){
+    article {
+        width: 100%;
+    }
 }
