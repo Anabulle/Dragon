@@ -1,0 +1,27 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="150" cy="150" r="150" fill="#D9D9D9"/>
+<path d="M108.5 128L147.5 165.5L196 128L153 24L108.5 128Z" fill="#7CCBED"/>
+<path d="M209.5 144.5L165.5 176L209.5 199.5L272.5 144.5H209.5Z" fill="#7CCBED"/>
+<path d="M94 144.5L126.5 176L82.5 199.5L28 144.5H94Z" fill="#7CCBED"/>
+<path d="M94 207.5L147.5 176L196 207.5L147.5 276L94 207.5Z" fill="#7CCBED"/>
+<path d="M108.5 128L147.5 165.5L196 128L153 24L108.5 128Z" stroke="#7CCBED" stroke-width="5"/>
+<path d="M209.5 144.5L165.5 176L209.5 199.5L272.5 144.5H209.5Z" stroke="#7CCBED" stroke-width="5"/>
+<path d="M94 144.5L126.5 176L82.5 199.5L28 144.5H94Z" stroke="#7CCBED" stroke-width="5"/>
+<path d="M94 207.5L147.5 176L196 207.5L147.5 276L94 207.5Z" stroke="#7CCBED" stroke-width="5"/>
+<path d="M152 34.5L146 154L185 122L152 34.5Z" fill="white"/>
+<path d="M248.5 154L180.5 175.5L211 190L248.5 154Z" fill="white"/>
+<path d="M146 265.5L143 178.5L180.5 212L146 265.5Z" fill="white"/>
+<path d="M64.5 169L82 190L116 169L92.5 149.5L64.5 169Z" fill="white"/>
+<path d="M152 34.5L146 154L185 122L152 34.5Z" stroke="white" stroke-width="5"/>
+<path d="M248.5 154L180.5 175.5L211 190L248.5 154Z" stroke="white" stroke-width="5"/>
+<path d="M146 265.5L143 178.5L180.5 212L146 265.5Z" stroke="white" stroke-width="5"/>
+<path d="M64.5 169L82 190L116 169L92.5 149.5L64.5 169Z" stroke="white" stroke-width="5"/>
+<path d="M149.821 34.5L143.462 155.5L124.386 112.5L149.821 34.5Z" fill="#1DA4D5"/>
+<path d="M241.5 149.5L169.957 177.091L218 146L241.5 149.5Z" fill="#1DA4D5"/>
+<path d="M143.462 266.5V179.455L116 214.5L143.462 266.5Z" fill="#1DA4D5"/>
+<path d="M63 161.756L77.5 190L41 146L88 149.5L63 161.756Z" fill="#1DA4D5"/>
+<path d="M149.821 34.5L143.462 155.5L124.386 112.5L149.821 34.5Z" stroke="#1DA4D5" stroke-width="5"/>
+<path d="M241.5 149.5L169.957 177.091L218 146L241.5 149.5Z" stroke="#1DA4D5" stroke-width="5"/>
+<path d="M143.462 266.5V179.455L116 214.5L143.462 266.5Z" stroke="#1DA4D5" stroke-width="5"/>
+<path d="M63 161.756L77.5 190L41 146L88 149.5L63 161.756Z" stroke="#1DA4D5" stroke-width="5"/>
+</svg>

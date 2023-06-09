@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@300;700&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --light-blue: #B4C5CC;
+    --blue-head: #327F9B;
+    --blue-title: #7CCBED;
+}
+
+h1,
+h2,
+p,
+h3,
+button {
+    font-family: 'Kulim Park', sans-serif;
+}
+
+body {
+    background-color: var(--light-blue);
+}
+
+header {
+    position: relative;
+    top: 0;
+    background-color: var(--blue-head);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: var(--blue-title);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 20px 20px;
+    margin-left: 40px;
+    color: var(--blue-head);
+}
+
+section {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    width: 35%;
+    position: relative;
+    overflow: hidden;
+}
+
+article div {
+    display: flex;
+    z-index: 1;
+}
+
+figure {
+    height: 250px;
+}
+
+figure img {
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    opacity: 90%;
+    max-height: 300px;
+}
+
+article div img {
+    width: 50px;
+}
+
+.pp {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 300px;
+    object-fit: cover;
+    z-index: 2;
+}
